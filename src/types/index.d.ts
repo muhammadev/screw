@@ -1,11 +1,18 @@
-interface Score {
+interface Player {
+    id: number;
     name: string;
-    score: number;
+    team_id: string;
+    winner_count: number;
+    screwed_count: number;
+}
+
+interface PlayerWithScore extends Player {
+    score: number
 }
 
 type Game = {
     id: number;
-    scores: Score[];
+    players: PlayerWithScore[];
 };
 
 
