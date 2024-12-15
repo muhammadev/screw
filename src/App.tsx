@@ -4,7 +4,7 @@ import { NavLink } from "react-router";
 
 function App() {
   return (
-    <div className="App w-screen">
+    <div className="App w-full">
       <MainLayout>
         <nav className="flex gap-3 justify-center mb-12">
           <NavLink to="/" end>Home</NavLink>

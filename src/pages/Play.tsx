@@ -19,7 +19,7 @@ function Game() {
   };
 
   return (
-    <div>
+    <div className="w-3/4 mx-auto">
       {/* first, select players */}
       {!isSelectingPlayers && !isPlaying && (
         <button onClick={() => setIsSelectingPlayers(true)}>

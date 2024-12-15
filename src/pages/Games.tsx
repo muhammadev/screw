@@ -13,7 +13,7 @@ function Games() {
 
   return (
     <div className="w-3/4 mx-auto">
-      <h1>Games List</h1>
+      <h1 className="mb-10">Games List</h1>
 
       <ul className="text-start">
         {games.map((game, game_index) => (
